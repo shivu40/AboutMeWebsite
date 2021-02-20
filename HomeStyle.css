@@ -1,0 +1,61 @@
+.heading{
+    text-align:center;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(211, 130, 55);
+    color: white;
+    font-size: large;
+    padding: 0.2%;
+ 
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 490px;
+   
+}
+.row
+{
+  background-color: rgb(247, 247, 175);
+}
+* {
+    box-sizing: border-box;
+  }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column2{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 490
+   
+}
+
+.column3{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 490px;
+   
+}
+ul.course{
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.column2 p{
+    margin-left: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: red;
+}
+  .footer {
+    background-color: #0a0808;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    
+  }
